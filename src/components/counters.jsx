@@ -56,6 +56,7 @@ class Counters extends Component {
 				>
 					Reset
 				</button>
+				<p>{process.env.REACT_APP_NOT_SECRET_CODE}</p>
 				{this.state.Counters.map((counter) => (
 					<Counter
 						key={counter.id}
